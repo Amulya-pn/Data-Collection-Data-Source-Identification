@@ -15,7 +15,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 # Load Dataset
 # ==========================================
 
-df = pd.read_csv("adult.csv")
+df = pd.read_csv("adult_data.csv")
 
 print("First 5 Rows:")
 print(df.head())
